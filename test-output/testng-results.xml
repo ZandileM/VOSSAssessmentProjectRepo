@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-03T00:03:27 SAST" name="Default suite" finished-at="2021-11-03T00:04:01 SAST" duration-ms="34070">
+    <groups>
+    </groups>
+    <test started-at="2021-11-03T00:03:27 SAST" name="Default test" finished-at="2021-11-03T00:04:01 SAST" duration-ms="34070">
+      <class name="test.UltimateQATests">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.UltimateQATests@18d87d80]" started-at="2021-11-03T00:03:27 SAST" name="setUpTest" finished-at="2021-11-03T00:03:35 SAST" duration-ms="7911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="launchBrowser()[pri:0, instance:test.UltimateQATests@18d87d80]" started-at="2021-11-03T00:03:35 SAST" name="launchBrowser" finished-at="2021-11-03T00:03:59 SAST" duration-ms="24056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.UltimateQATests@18d87d80]" started-at="2021-11-03T00:03:59 SAST" name="tearDownTest" finished-at="2021-11-03T00:04:01 SAST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.UltimateQATests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
