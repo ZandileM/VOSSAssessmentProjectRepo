@@ -1,0 +1,51 @@
+VOSS Assessment Test Plan
+
+Introduction:
+
+- This document describes the plan to test Ultimate QA website for assessment purposes.
+
+Objectives: 
+
+- Parts of the website to be tested are:
+	- Browsing to the page and verify Title of the page
+	- Logging In 
+	- Browse to "Fill out Forms"
+	- Browse to "Fake Pricing Page"
+
+Scope:
+
+- Automation test to be performed using Selenium Java Framework.
+- Scripts will be created using TestNG.
+	- The automation tests will launch the browser on Chrome and Firefox, take screen short of the website landing page save it on Image’s folder of the project.
+	- Automaton tests will also maximize the browser.
+	- The tests will also login using the automation link on landing page.
+	- Test will launch "Fill out Forms" by reloading the browser to go back to landing page.
+	- Test will fill and submit the forms
+	- Test will launch "Fake Pricing" page by reloading the browser to go back to landing page.
+	- An Extent Report will be created below test-output folder
+
+Environment:
+
+- Project created in Selenium java framework 
+- Project will use TestNG framework for unit testing
+- Project will generate test scripts using TestNG.
+- For Design patterns POM is used.
+- Maven build tool is used for dependencies
+	- Right click on the Maven project and select Run As -> Maven Build (this will run scripts)
+
+
+
+
+
+STEPS TO RUN THE PROJECT
+1.	Project is on git https://github.com/ZandileM/VOSSAssessmentProjectRepo.git
+2.	Open project in Eclipse by doing a Pull or Import
+3.	In Eclipse do a Maven Build for the project
+a.	Right-click on the project select RunAs -> Maven Build
+4.	After build is successful Run the TestNG xml file to run the project
+a.	Right-click on TestNG.xml file and click on RunAs -> TestNG Suite
+5.	Project should start running
+a.	Tests will be executed on  Firefox and Chrome simultaneously 
+6.	When all tests have executed both browsers will be closed
+7.	An Extent Report will be generated 
+8.	Open Extent Report by double clicking on extent.html
